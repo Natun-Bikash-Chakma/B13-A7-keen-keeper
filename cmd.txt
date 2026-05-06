@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.22631.6199]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Owner>cd..
+
+C:\Users>cd ..
+
+C:\>cd /d D:
+
+D:\>cd Programming Hero
+
+D:\Programming Hero>cd Projects
+
+D:\Programming Hero\Projects>npx create-next-app@latest B13-A7-keen-keeper
+Need to install the following packages:
+create-next-app@16.2.4
+Ok to proceed? (y) y
+
+Could not create a project called "B13-A7-keen-keeper" because of npm naming restrictions:
+    * name can no longer contain capital letters
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.13.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0
+npm notice To update run: npm install -g npm@11.13.0
+npm notice
+
+D:\Programming Hero\Projects>npx create-next-app@latest b13-a7-keen-keeper
+√ Would you like to use the recommended Next.js defaults? » No, customize settings
+√ Would you like to use TypeScript? ... No / Yes
+√ Which linter would you like to use? » ESLint
+√ Would you like to use React Compiler? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+√ Would you like to include AGENTS.md to guide coding agents to write up-to-date Next.js code? ... No / Yes
+Creating a new Next.js app in D:\Programming Hero\Projects\b13-a7-keen-keeper.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- next
+- react
+- react-dom
+
+Installing devDependencies:
+- @tailwindcss/postcss
+- babel-plugin-react-compiler
+- eslint
+- eslint-config-next
+- tailwindcss
+
+
+added 355 packages, and audited 356 packages in 1m
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Generating route types...
+✓ Types generated successfully
+
+Initialized a git repository.
+
+Success! Created b13-a7-keen-keeper at D:\Programming Hero\Projects\b13-a7-keen-keeper
+
+
+D:\Programming Hero\Projects>cd b13-a7-keen-keeper
+
+D:\Programming Hero\Projects\b13-a7-keen-keeper>code .
+
+D:\Programming Hero\Projects\b13-a7-keen-keeper>npm run dev
+
+> b13-a7-keen-keeper@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.3.3:3000
+✓ Ready in 10.5s
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
