@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[41445,["/B13-A7-keen-keeper/_next/static/chunks/0em_bxnnj8u_m.js","/B13-A7-keen-keeper/_next/static/chunks/0n4z.7yu76je-.js","/B13-A7-keen-keeper/_next/static/chunks/16~rb~ii.v~6h.js"],"default"]
+3:I[97367,["/B13-A7-keen-keeper/_next/static/chunks/0em_bxnnj8u_m.js","/B13-A7-keen-keeper/_next/static/chunks/0n4z.7yu76je-.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"friend":{"id":5,"name":"Sarah Chen","picture":"https://randomuser.me/api/portraits/women/88.jpg","email":"sarah.chen@example.com","days_since_contact":2,"status":"on-track","tags":["close friend","college"],"bio":"Best friend from university.","goal":7,"next_due_date":"2024-05-09"}}],[["$","script","script-0",{"src":"/B13-A7-keen-keeper/_next/static/chunks/16~rb~ii.v~6h.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"1KjpWwsQxlOC7M7ajJpXs"}
+5:null
