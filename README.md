@@ -198,11 +198,13 @@ This page shows the **history of all interactions** (calls, texts, video calls) 
 
 ### C3. 📄 GitHub README
 
-Add a well-designed `README.md` to your GitHub repository that includes:
-- Name of your project
-- A short description
-- Technologies you used
-- 3 key features of your project
+👥 Project Name-KeenKeeper – Relationship Management Dashboard
+
+📝 DescriptionKeenKeeper is a personal connection tracker designed to help users nurture and maintain meaningful friendships. It helps you stay organized by monitoring how long it has been since your last contact with friends and reminds you when it's time to reach out again.
+
+🛠 Technologies Used- Next.js 15 (App Router), Tailwind CSS (Styling), Lucide React (Icons) , Recharts (Data Visualization), LocalStorage API (Data Persistence)
+
+🚀 Key FeaturesDynamic Timeline: Automatically logs interactions (Call, Text, Video) with real-time timestamps and allows for customizable activity filters. Friendship Analytics: Visualizes engagement data through interactive donut charts and percentage breakdowns to see how you connect with friends. Smart Reminders: Categorizes contacts using status badges like "Overdue," "Almost Due," or "On Track" to help you prioritize your social connections.
 
 ---
 
