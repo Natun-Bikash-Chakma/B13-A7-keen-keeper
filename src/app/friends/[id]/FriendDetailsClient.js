@@ -45,7 +45,6 @@ export default function FriendDetailsClient({ friend }) {
                 </button>
 
                 <h1 className="text-3xl font-bold mb-8 text-slate-900">Friend Details</h1>
-
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
                     <div className="lg:col-span-4 space-y-4">
                         <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
