@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // এটি আপনার প্রোজেক্টকে স্ট্যাটিক HTML-এ রূপান্তর করবে
+  basePath: '/B13-A7-keen-keeper', // আপনার GitHub রেপোজিটরির নাম
   images: {
-    unoptimized: true,
+    unoptimized: true, // স্ট্যাটিক এক্সপোর্টের জন্য ইমেজ অপ্টিমাইজেশন বন্ধ করতে হবে
   },
-  output: 'export',
-  basePath: '/B13-A7-keen-keeper',
-  assetPrefix: '/B13-A7-keen-keeper',
 };
 
 export default nextConfig;
