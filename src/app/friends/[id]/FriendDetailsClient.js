@@ -2,7 +2,7 @@
 "use client";
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import { Bell, Archive, Trash2, Phone, MessageSquare, Video, ArrowLeft } from 'lucide-react';
+import { Archive, Trash2, Phone, MessageSquare, Video, ArrowLeft } from 'lucide-react';
 // ২ ধাপ পেছনে গিয়ে src ফোল্ডারের components-এ ঢুকতে হবে
 import Footer from '../../components/Footer';
 import toast, { Toaster } from 'react-hot-toast';
@@ -36,7 +36,7 @@ export default function FriendDetailsClient({ friend }) {
         <div className="bg-slate-50 min-h-screen flex flex-col">
             <Toaster position="top-right" />
 
-            <div className="max-w-6xl mx-auto p-4 md:p-12 flex-grow w-full">
+            <div className="max-w-6xl mx-auto p-4 md:p-12 grow w-full">
                 <button
                     onClick={() => router.back()}
                     className="flex items-center gap-2 text-slate-500 mb-8 hover:text-slate-800 transition-all"

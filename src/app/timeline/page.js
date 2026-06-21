@@ -44,7 +44,7 @@ export default function Timeline() {
 
     return (
         <div className="bg-slate-50 min-h-screen flex flex-col">
-            <div className="max-w-4xl mx-auto p-6 md:p-12 flex-grow w-full">
+            <div className="max-w-4xl mx-auto p-6 md:p-12 grow w-full">
 
                 <button
                     onClick={() => router.back()}
